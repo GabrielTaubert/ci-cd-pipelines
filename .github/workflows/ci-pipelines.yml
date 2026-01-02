@@ -43,4 +43,5 @@ jobs:
         run: |
           mvn -B verify \
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
-          -Dsonar.projectKey=gabtau-ci-cd-pipelines
+          -Dsonar.projectKey=gabtau-ci-cd-pipelines \
+          -Dsonar.qualitygate.wait=true
