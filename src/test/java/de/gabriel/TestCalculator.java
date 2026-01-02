@@ -28,18 +28,18 @@ public class TestCalculator {
         assertEquals(7, result);
     }
 
-//    @Test
-//    void test_mult_function() {
-//        double result = calculator.mult(2,3);
-//
-//        assertEquals(6, result);
-//    }
+    @Test
+    void test_mult_function() {
+        double result = calculator.mult(2,3);
 
-//    @Test
-//    void test_div_function() {
-//        double result = calculator.div(6,2);
-//
-//        assertEquals(3, result);
-//    }
+        assertEquals(6, result);
+    }
+
+    @Test
+    void test_div_function() {
+        double result = calculator.div(6,2);
+
+        assertEquals(3, result);
+    }
 
 }
